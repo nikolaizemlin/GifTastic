@@ -1,37 +1,32 @@
-* {
-	box-sizing: border-box;
+.btn-primary {
+    margin-right: 8px;
+    margin-top: 10px;
+	background-color: rgb(224, 95, 9);
+	border-color: rgb(53, 36, 5);
+	border-width: 2px;
+}
+body, html {
+    background-image: url("http://getwallpapers.com/wallpaper/full/1/8/8/1095398-new-mansion-wallpapers-1920x1080-4k.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-body {
- 
-	/* max-width: 960px; 
-	border-style: dashed;
-	border-color: black; */
+.btn-primary:hover {
+	background-color:darkred;
+	border-color: black;
 }
-
-#background {
-	background-repeat: no-repeat;
-	background-size: 70%;
-	max-width: 700px;
+.label {
+    color: yellow;
 }
-
-#cartoon-form {
-	float: right;
-}
-
-h3 {
-	color: navy;
-	text-align: center;
-
-}
-
-input {
-	align-content: center;
-}
-
-#cartoons-view {
-	float: left;
-
-}
-
-
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(83, 17, 17);
+    color: white;
+    text-align: center;
+       
+ }
